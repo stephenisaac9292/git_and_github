@@ -1,11 +1,7 @@
-let age = prompt("Enter your age: ");
+function convertUsdToAud(usd){
+    let aud = usd * 1.5
+    return aud
+}
 
-if (age>18){
-    console.log(`You are ${age}, years old, go ahead and enter the club` );
-    }
-else if (age===18){
-    console.log(`Welcome to adulthood; get in`);
-    }
-else {
-    console.log(`You are ${age}, years old, Please go home`);
-    }
+console.log(convertUsdToAud(300))
+
